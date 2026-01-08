@@ -11,10 +11,3 @@ export const supabase = supabaseUrl && supabaseAnonKey
       },
     })
   : null;
-
-export const getSupabase = () => {
-  if (\!supabase) {
-    throw new Error("Supabase client not initialized. Check environment variables.");
-  }
-  return supabase;
-};
