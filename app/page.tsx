@@ -27,20 +27,13 @@ export default function Home() {
             </span>
           </p>
 
-          <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center sm:gap-6">
+          <div className="flex justify-center">
             <Link
               href="/catalogo"
               className="group relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-burgundy px-8 py-4 text-base font-medium text-cream shadow-elegant transition-elegant hover:bg-burgundy-light hover:shadow-2xl hover:scale-105"
             >
               <span className="relative z-10">Explorar Catálogo</span>
               <div className="absolute inset-0 -z-10 bg-gradient-to-r from-burgundy-dark to-burgundy opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-            </Link>
-
-            <Link
-              href="/catalogo"
-              className="inline-flex items-center justify-center rounded-lg border border-rose-mauve/30 bg-transparent px-8 py-4 text-base font-medium text-rose-mauve transition-elegant hover:border-rose-mauve hover:bg-rose-mauve/10"
-            >
-              Ver Modelos
             </Link>
           </div>
         </div>
